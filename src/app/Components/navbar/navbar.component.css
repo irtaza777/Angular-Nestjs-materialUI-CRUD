@@ -1,0 +1,47 @@
+/* app.component.css */
+
+/* Style for the toolbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 64px; /* Adjust height if needed */
+  background-color: #3f51b5; /* Primary color (Material indigo) */
+}
+
+/* Style for the title in the toolbar */
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff; /* White text color for better contrast */
+}
+
+/* Spacer to push the nav items to the right */
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Style for the navigation links */
+nav a {
+  color: #ffffff; /* White text color for the links */
+  margin: 0 8px; /* Space between links */
+  font-size: 1rem; /* Font size for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Style for active link */
+.active-link {
+  font-weight: bold;
+  color: #ffeb3b; /* Highlight color for active link (e.g., yellow) */
+}
+
+/* Optional: Hover effect for links */
+nav a:hover {
+  color: #ffeb3b; /* Change color on hover */
+  cursor: pointer;
+}
+.user-email {
+  color: white;
+  font-weight: 500;
+  margin-left: 1px;
+}

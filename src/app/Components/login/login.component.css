@@ -1,0 +1,30 @@
+/* login.component.css */
+
+.login-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .register-link a {
+    color: blueviolet;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  

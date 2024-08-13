@@ -1,0 +1,11 @@
+<mat-toolbar color="primary" class="navbar">
+  <span class="title">MyApp</span>
+  <span class="spacer"></span>
+  <nav class="nav-links">
+    <a mat-button routerLink="/" routerLinkActive="active-link">Home</a>
+    <a mat-button routerLink="/users" routerLinkActive="active-link">Users</a>
+    <a mat-button *ngIf="isLoggedIn()" (click)="logout()">Logout</a>
+    <a mat-button *ngIf="!isLoggedIn()" routerLink="/login">Login</a>
+  </nav>
+  <span *ngIf="isLoggedIn()" class="user-email">({{ userEmail() }})</span>
+</mat-toolbar>

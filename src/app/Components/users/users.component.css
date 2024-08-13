@@ -1,0 +1,28 @@
+/* user-list.component.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  mat-card {
+    overflow: auto;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  mat-header-cell, mat-cell {
+    text-align: left;
+  }
+  
+  button {
+    margin-right: 8px;
+  }
+  
